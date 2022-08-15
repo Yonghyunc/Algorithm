@@ -8,7 +8,6 @@
 c_alpha = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 
 word = input()
-c_count = 0
 
 for c in c_alpha:
     if c in word:
