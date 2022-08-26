@@ -4,7 +4,7 @@
 
 import sys
 
-sys.stdin = open('input_1.txt')
+sys.stdin = open('../input_1.txt')
 
 
 t = int(input())
