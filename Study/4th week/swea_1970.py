@@ -18,6 +18,18 @@ for test_case in range(1, t + 1):
             cnt += 1        # 사용한 돈의 개수는 계속해서 추가해줌
         money_cnt.append(cnt)
 
-    # 프린트를 한번만 쓰는 방법은 없을까?
     print(f'#{test_case}')
     print(*money_cnt)
+
+    '''
+    출력 형식
+    #1
+    0 3 0 2 1 3 1 0
+    '''
+    # 프린트를 한번만 쓰는 방법은 없을까?
+
+    # format => 동적 변화 적용 어려움
+    # print('#{}\n{} {} {} {} {} {} {} {}'.format(test_case, *money_cnt))
+
+    # 문자열로 변환하고 띄어쓰기 포함하여 join 후 출력
+    # print(f'#{test_case}\n{" ".join(map(str, money_cnt))}')
