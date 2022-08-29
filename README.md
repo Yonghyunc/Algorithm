@@ -1,7 +1,17 @@
 # Algorithm
 
-### 🖊️ commit 메세지
-"Solve 문제명"
+- [List1](#-list1)
+- [List2](#-list2)
+- [String](#-string)
+- [Stack1](#-stack1)
+- [Stack2](#-stack2)
+- [Queue](#-queue)
+
+<br/>
+
+### [IM 대비 문제](#-im-대비-문제)
+- [백준](#💚백준)
+- [SWEA](#💙-swea)
 
 <br/>
 
@@ -52,6 +62,7 @@
 <br/>
 
 ▶️ [delta](List2/code_delta.py) <br/>
+
 ▶️ [subset](List2/code_subset.py)
 
 <br/>
@@ -345,6 +356,7 @@
 ## ⭐ Queue
 <br/>
 ▶️ [BFS](Queue/BFS.py)
+
 <br/>
 
 ▶️ SWEA 1225. 암호생성기  <br/>
