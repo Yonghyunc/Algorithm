@@ -436,12 +436,13 @@
 
 <br/>
 
-### ❌ 미해결
-<br/>
-
-▶️ 백준 2564. 경비원 - 미해결  <br/>
+▶️ 백준 2564. 경비원  <br/>
 [문제](https://www.acmicpc.net/problem/2564)
 [코드](IM/bj_2564.py)
+
+<br/>
+
+### ❌ 미해결
 
 <br/>
 
@@ -505,8 +506,8 @@
 
 <br/>
 
-▶️ SWEA 1208. [Flatten](#▶️-swea-1208-flatten-br)
-▶️ SWEA 1209. [Sum](#▶️-swea-1209-sum-br)
+▶️ SWEA 1208. [Flatten](#▶️-swea-1208-flatten-br) <br/>
+▶️ SWEA 1209. [Sum](#▶️-swea-1209-sum-br) <br/>
 ▶️ SWEA 1210. [Ladder1](#▶️-swea-1210-ladder1-br)
 
 <br/>
