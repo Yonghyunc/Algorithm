@@ -18,3 +18,14 @@ for test_case in range(1, t + 1):
         h = h - 12
 
     print(f'#{test_case} {h} {m}')
+
+
+'''
+12:30 + 12:40 했을 때,
+왜 통과했지..?
+
+-> while h > 12:
+        h = h - 12
+
+또는 몫과 나머지
+'''
