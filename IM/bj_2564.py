@@ -19,13 +19,16 @@ for i in range(n + 1):
     elif stores[i][0] == 4:         # 동 [_, w]
         stores[i][0] = stores[i][1]
         stores[i][1] = w
-print(stores)
+# print(stores)
 dis = 0
 for i in range(1, n + 1):
 
     # 동근이와 상점이 같은 방향에 위치할 때는 위치의 차만 구해줌
-    if stores[0][0] == stores[i][0]:
+    if stores[0][0] == stores[i][0] and stores[0][0] in (0, h):          # 북, 남
         dis += abs(stores[0][1] - stores[i][1])
+
+    elif stores[0][1] == stores[i][1] and stores[0][1] in (0, w):        # 서, 동
+        dis += abs(stores[0][0] - stores[i][0])
 
     else:
         # 동근이와 상점의 x좌표 위치의 합이 높이보다 작을 때,
@@ -39,4 +42,4 @@ for i in range(1, n + 1):
         else:
             dis += 2 * w - (stores[0][1] + stores[i][1])
 
-    print(dis)
+print(dis)
