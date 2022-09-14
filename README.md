@@ -442,6 +442,12 @@
 
 <br/>
 
+▶️ 백준 2635. 수 이어가기  <br/>
+[문제](https://www.acmicpc.net/problem/2635)
+[코드](im/bj_2635.py)
+
+<br/>
+
 ### ❌ 미해결
 
 <br/>
@@ -469,10 +475,6 @@
 ▶️ 백준 2527. 직사각형 <br/>
 [문제](https://www.acmicpc.net/problem/2527)
 
-<br/>
-
-▶️ 백준 2635. 수 이어가기  <br/>
-[문제](https://www.acmicpc.net/problem/2635)
 
 <br/>
 
@@ -494,6 +496,8 @@
 ▶️ 백준 14696. 딱지놀이  <br/>
 [문제](https://www.acmicpc.net/problem/14696)
 
+
+<br/><br/>
 
 ---
 ## 💙 SWEA 
@@ -569,6 +573,12 @@
 
 <br/>
 
+▶️ SWEA 1220. Magnetic  <br/>
+[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14jJh6ACYCFAYD)
+[코드](im/code_1220.py)
+
+<br/>
+
 
 ### ❌ 미해결
 
@@ -578,10 +588,6 @@
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14BgD6AEECFAYh)
 [코드](code_1211.py)
 
-<br/>
-
-▶️ SWEA 1220. Magnetic  <br/>
-[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14jJh6ACYCFAYD)
 
 <br/>
 
@@ -618,3 +624,28 @@
 
 ▶️ SWEA 4615. 재미있는 오셀로 게임  <br/>
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj)
+
+
+<br/><br/>
+
+---
+
+## 💙 Programmers
+
+▶️ Programmers 42888. 오픈채팅방  <br/>
+[코드](im/pg_42888.py)
+
+<br>
+
+▶️ Programmers 60058. 괄호 변환  <br/>
+[코드](im/pg_60058.py)
+
+<br>
+
+▶️ Programmers 17681. 비밀지도  <br/>
+[문제](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
+[코드](im/pg_17681.py)
+
+<br>
+
+
