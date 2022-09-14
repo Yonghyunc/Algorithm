@@ -579,15 +579,20 @@
 
 <br/>
 
-
-### ❌ 미해결
+▶️ SWEA 1979. 어디에 단어가 들어갈 수 있을까  <br/>
+[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq)
+[코드](study/5th%20week/swea_1979.py)
 
 <br/>
 
-▶️ SWEA 1211. Ladder2 - 미해결 <br/>
+▶️ SWEA 1211. Ladder2 <br/>
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14BgD6AEECFAYh)
 [코드](code_1211.py)
 
+<br/>
+
+
+### ❌ 미해결
 
 <br/>
 
@@ -600,10 +605,6 @@
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18TrIqIwUCFAZN)
 
 
-<br/>
-
-▶️ SWEA 1979. 어디에 단어가 들어갈 수 있을까  <br/>
-[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq)
 
 <br/>
 
