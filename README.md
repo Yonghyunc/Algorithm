@@ -591,6 +591,12 @@
 
 <br/>
 
+▶️ SWEA 4466. 최대 성적표 만들기 <br/>
+[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWOUfCJ6qVMDFAWg)
+
+
+<br/>
+
 
 ### ❌ 미해결
 
@@ -605,15 +611,9 @@
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18TrIqIwUCFAZN)
 
 
-
 <br/>
 
-▶️ SWEA 4466. 최대 성적표 만들기 <br/>
-[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWOUfCJ6qVMDFAWg)
-
-<br/>
-
-▶️ SWEA 4613. 러시아 국기 같은 깃발  <br/>
+▶️ SWEA 4613. 러시아 국기 같은 깃발 💛 ing <br/>
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQl9TIK8qoDFAXj&categoryId=AWQl9TIK8qoDFAXj&categoryType=CODE&problemTitle=4613&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)
 
 <br/>
@@ -649,4 +649,7 @@
 
 <br>
 
+▶️ Programmers 72410. 신규 아이디 추천  <br/>
+[문제](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
+[코드](im/pg_72410.py)
 
