@@ -383,6 +383,36 @@
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD&categoryId=AV140YnqAIECFAYD&categoryType=CODE&problemTitle=1231&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&&&&&&&&&&)
 [코드](Tree/code_1231.py)
 
+<br/>
+
+▶️ SWEA 1232. 사칙연산 <br/>
+[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141J8KAIcCFAYD&categoryId=AV141J8KAIcCFAYD&categoryType=CODE&problemTitle=1232&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&)
+[코드](Tree/code_1232.py)
+
+<br/>
+
+▶️ SWEA 5174. subtree <br/>
+[문제](https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
+[코드](Tree/code_5174.py)
+
+<br/>
+
+▶️ SWEA 5176. 이진탐색 <br/>
+[문제](https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
+[코드](Tree/code_5176.py)
+
+<br/>
+
+▶️ SWEA 5177. 이진 힙 <br/>
+[문제](https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
+[코드](Tree/code_5177.py)
+
+<br/>
+
+▶️ SWEA 5178. 노드의 합 <br/>
+[문제](https://swexpertacademy.com/main/learn/course/lectureProblemViewer.do)
+[코드](Tree/code_5178.py)
+
 <br/><br/>
 
 ---
