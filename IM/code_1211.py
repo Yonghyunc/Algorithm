@@ -51,13 +51,16 @@ for _ in range(10):
                     y += 1
                     move += 1
 
-        if min_move > move > 0:     # 사다리가 없는 곳은 move 값이 0이므로, 최단거리는 0보다 커야 함
-            min_move = move
-            min_idx = i             # 6. 최단거리를 가지는 시작점
+            if min_move > move > 0:     # 사다리가 없는 곳은 move 값이 0이므로, 최단거리는 0보다 커야 함
+                min_move = move
+                min_idx = i             # 6. 최단거리를 가지는 시작점
 
     print(f'#{t} {min_idx}')
 
-
+'''
+if - else 문
+조건 바꿔서 -> pass 안 해도 됨!
+'''
 
 
 
