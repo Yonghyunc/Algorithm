@@ -637,7 +637,13 @@
 
 ▶️ SWEA 4466. 최대 성적표 만들기 <br/>
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWOUfCJ6qVMDFAWg)
+[코드](im/code_4466.py)
 
+<br/>
+
+▶️ SWEA 4615. 재미있는 오셀로 게임  <br/>
+[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj)
+[코드](im/code_4615.py)
 
 <br/>
 
@@ -664,12 +670,6 @@
 
 ▶️ SWEA 1860. 진기의 최고급 붕어빵  <br/>
 [문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc&categoryId=AV5LsaaqDzYDFAXc&categoryType=CODE&problemTitle=1860&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)
-
-<br/>
-
-▶️ SWEA 4615. 재미있는 오셀로 게임  <br/>
-[문제](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj)
-
 
 <br/><br/>
 
