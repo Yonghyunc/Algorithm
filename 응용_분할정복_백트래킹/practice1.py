@@ -32,4 +32,4 @@ def quick_sort(l, r):
 arr = list(map(int, input().split()))
 n = len(arr)
 quick_sort(0, n - 1)
-print(arr)
+print(*arr)
