@@ -1,4 +1,4 @@
-# 모든 정점을 깊이 우선 탐색하여 화면에 깊이 우선 탐색 경로 출력
+# 모든 정점을 너비 우선 탐색
 # 시작 정점 = 1
 
 '''
@@ -7,12 +7,18 @@
 '''
 
 
-def dfs(n):
-    visited[n] = True       # 방문 표시
-    print(n, end=' ')       # 방문한 정점 번호 출력
-    for i in graph[n]:      # 인접한 정점으로 이동
-        if not visited[i]:  # 방문한 적 없을 경우에만
-            dfs(i)
+def bfs(v):
+    visited[v] = True
+    queue = [v]
+    print(v, end=' ')
+
+    while queue:
+        v = queue.pop(0)
+        for k in graph[v]:
+            if not visited[k]:
+                visited[k] = True
+                queue.append(k)
+                print(k, end=' ')
 
 
 arr = list(map(int, input().split()))
@@ -24,4 +30,4 @@ for i in range(n):              # 인접 리스트 생성
     graph[arr[i * 2]].append(arr[i * 2 + 1])
     graph[arr[i * 2 + 1]].append(arr[i * 2])
 
-dfs(1)
+bfs(1)
