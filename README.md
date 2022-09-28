@@ -697,3 +697,14 @@
 [문제](https://school.programmers.co.kr/learn/courses/30/lessons/72410)
 [코드](im/pg_72410.py)
 
+<br>
+
+▶️ Programmers 1845. 폰켓몬  <br/>
+[문제](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+[코드](im/pg_1845.py)
+
+<br>
+
+▶️ Programmers 70128. 내적  <br/>
+[문제](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
+[코드](im/pg_70128.py)
