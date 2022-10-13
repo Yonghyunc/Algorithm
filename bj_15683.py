@@ -47,14 +47,14 @@ def view(x, y, num, cnt=1, k=0):
                         blank += 1
                     elif office[nx][ny] == next_num:
                         break
-            cctv.append([next_x, next_y, next_num])
 
         else:
             if blank < min_blank:
                 min_blank = blank
             # print(office)
-    else:
-        return
+            return
+
+    cctv.append([x, y, num])
 
 
 
