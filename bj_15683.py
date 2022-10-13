@@ -52,10 +52,18 @@ def view(x, y, num, cnt=1, k=0):
             if blank < min_blank:
                 min_blank = blank
             # print(office)
-            return
+            for d in dir[i]:
+                nx = x
+                ny = y
+                while 0 <= nx + dx[d] < n and 0 <= ny + dy[d] < m:
+                    nx, ny = nx + dx[d], ny + dy[d]
+                    if office[nx][ny] == '#' * cnt:
+                        office[nx][ny] = 0
+                        blank += 1
+                    elif office[nx][ny] == num:
+                        break
 
     cctv.append([x, y, num])
-
 
 
 n, m = map(int, input().split())
@@ -70,7 +78,7 @@ for i in range(n):
         elif office[i][j] == 0:
             blank += 1
 
-
+print(blank)
 # print(office)
 # print(cctv)
 x, y, num = cctv.pop()
