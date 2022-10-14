@@ -16,7 +16,7 @@ cctv_dir = {
 }
 
 
-def view(x, y, num, cnt=1, k=0):
+def view(x, y, num, cnt=1):
     global blank
     global min_blank
 
@@ -26,6 +26,7 @@ def view(x, y, num, cnt=1, k=0):
         for d in dir[i]:
             nx = x
             ny = y
+            # print(x, y)
             while 0 <= nx + dx[d] < n and 0 <= ny + dy[d] < m:  # 조건 만족하면 그 방향으로 계속
                 nx, ny = nx + dx[d], ny + dy[d]
                 if office[nx][ny] == 0:  # 빈 칸
@@ -35,23 +36,26 @@ def view(x, y, num, cnt=1, k=0):
                     break
         if cctv:
             next_x, next_y, next_num = cctv.pop()
-            view(next_x, next_y, next_num, cnt + 1, i)
-
+            view(next_x, next_y, next_num, cnt + 1)
+            # print(next_x, next_y)
             for d in dir[i]:
-                nx = next_x
-                ny = next_y
+                nx = x
+                ny = y
                 while 0 <= nx + dx[d] < n and 0 <= ny + dy[d] < m:
                     nx, ny = nx + dx[d], ny + dy[d]
-                    if office[nx][ny] == '#' * (cnt + 1):
+                    if office[nx][ny] == '#' * cnt:
                         office[nx][ny] = 0
                         blank += 1
-                    elif office[nx][ny] == next_num:
+                    elif office[nx][ny] == 6:
                         break
 
         else:
             if blank < min_blank:
                 min_blank = blank
-            # print(office)
+                # for k in range(n):
+                #     print(office[k])
+                # print()
+
             for d in dir[i]:
                 nx = x
                 ny = y
@@ -78,10 +82,12 @@ for i in range(n):
         elif office[i][j] == 0:
             blank += 1
 
-print(blank)
 # print(office)
 # print(cctv)
-x, y, num = cctv.pop()
-view(x, y, num)
-print('min_blank : ', min_blank)
+if cctv:
+    x, y, num = cctv.pop()
+    view(x, y, num)
+    print(min_blank)
+else:
+    print(blank)
 
