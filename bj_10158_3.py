@@ -5,17 +5,17 @@ p, q = map(int, input().split())
 t = int(input())
 
 
-nt = t - (w - p)
-if (nt // w) / 2 != 0:
-    p = nt % w
+nx = t - (w - p)
+if (nx // w) / 2 != 0:
+    p = nx % w
 else:
-    p = w - (nt % w)
+    p = w - (nx % w)
 
-nt = t - (h - q)
-if (nt // h) / 2 != 0:
-    q = (nt % h)
+ny = t - (h - q)
+if (ny // h) / 2 != 0:
+    q = ny % h
 else:
-    q = h - (nt % h)
+    q = h - (ny % h)
 
 print(p, q)
 
