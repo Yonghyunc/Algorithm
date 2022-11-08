@@ -3,9 +3,7 @@
 n, m = map(int, input().split())
 city = [list(map(int, input().split())) for _ in range(n)]
 
-# print(city)
-
-# 치킨집과 집 좌표
+# 1. 치킨집과 집의 좌표 구하기
 chicken = []
 house = []
 for i in range(n):
@@ -17,6 +15,7 @@ for i in range(n):
 # print(chicken)
 # print(house)
 
+# 2. 각 집에서 모든 치킨집까지의 맨하탄 거리 구하기
 distance = []
 for hx, hy in house:
     dis = []
@@ -25,22 +24,33 @@ for hx, hy in house:
     distance.append(dis)
 # print(distance)
 
-min_dis = []
-min_idx = []
-for i in range(len(distance)):
-    min_idx.append(distance[i].index(min(distance[i])))
-    min_dis.append(min(distance[i]))
 
-print(min_dis)
-print(min_idx)
+idx = list(range(len(chicken)))         # 치킨집 번호 리스트 (좌표 대신 번호로)
+answer = 100000
 
-if m >= len(chicken):
-    print('answer', sum(min_dis))
-else:
-    sum_dis = [0] * (max(min_idx) + 1)
-    for i in range(len(min_dis)):
-        sum_dis[min_idx[i]] += min_dis[i]
-    print(sum_dis)
-# 무엇을 고민해야 하느냐
-# 복수의 치킨집 해결법
-# 하나의 치킨집 해결법
+
+# 3. 가능한 치킨집 조합 중 가장 최소 치킨거리를 지니는 치킨집을 뽑기
+def comb(arr=[], start=0):
+    global answer
+
+    if len(arr) == m:
+        sum_dis = 0
+        for k in range(len(distance)):          # 각 집별로
+            min_dis = 1000
+            for j in arr:
+                if distance[k][j] < min_dis:    # 해당 치킨집들까지의 거리 중
+                    min_dis = distance[k][j]    # 가장 최소값을 찾아서 더해줌
+            sum_dis += min_dis
+        if sum_dis < answer:                    # 가능한 조합의 경우 중
+            answer = sum_dis                    # 가장 최소거리를 구해줌
+        return
+
+    for i in range(start, len(chicken)):        # 조합 구하는 코드
+        arr.append(idx[i])
+        comb(arr, i + 1)
+        arr.pop()
+
+
+comb()
+print(answer)
+
