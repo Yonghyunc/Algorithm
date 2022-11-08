@@ -6,16 +6,20 @@ t = int(input())
 
 
 nx = t - (w - p)
-if (nx // w) / 2 != 0:
+
+if (nx // w) % 2 != 0:
     p = nx % w
 else:
     p = w - (nx % w)
 
+
 ny = t - (h - q)
-if (ny // h) / 2 != 0:
+
+if (ny // h) % 2 != 0:
     q = ny % h
 else:
     q = h - (ny % h)
+
 
 print(p, q)
 
